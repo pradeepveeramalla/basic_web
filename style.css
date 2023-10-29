@@ -1,0 +1,161 @@
+body {
+    margin: 10px;
+    background-color: rgb(33, 33, 33);
+    color: white;
+    height: 100vh;
+    border-radius: 10px;
+}
+.top_bar {
+    background-color: rgb(61, 61, 61);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgb(222, 226, 244);
+
+}
+.top_right {
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 0px;
+}
+.top_left {
+    padding-left: 30px;
+    padding-top: 20px;
+    
+}
+.head2{
+    margin: 0px;
+
+}
+.a {
+    padding: 6.5px;
+    margin: 4.6px;
+    border-radius: 4px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;  
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(122, 125, 105);
+}
+.middle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 50vh;
+    border-radius: 4px;
+
+}
+.middle_left {
+    width: 59%;
+    border-radius: 4px;
+    color: azure;
+    padding-left: 50px;
+    text-align: center;
+    padding-top: 100px;
+}
+.middle_right {
+width: 40%;
+padding-left: 80px;
+padding-top: 75PX;
+
+}
+.my_pic {
+    height: 300px;
+    cursor: pointer;
+}
+.logo {
+    height: 50px;
+}
+.bottm{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    padding-left: 50px;
+    margin: 10px;
+    background-color: rgb(28, 21, 25);
+    border-radius: 1000px;
+    font-size: 30px;
+    height: 150px;
+}
+.bottm_right{
+text-align: center;
+margin: 10px;
+font-size: 13px;
+padding: 50px;
+padding-top: 0px;
+
+}
+.bottm_middle{
+    text-align: center;
+    margin: 10px;
+    font-size: 13px;
+    padding: 50px;
+    padding-top: 0px;
+
+
+}
+.bottm_left{
+    text-align: center;
+    margin: 10px;
+    font-size: 13px;
+    padding: 50px;
+    padding-top: 0px;
+
+
+}
+.bottm_link{
+    color: aquamarine;
+}
+.sio {
+    text-align: center;
+    font-size: 15px;
+    margin: 50px;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+.sio_head {
+    margin-bottom: 2px;
+    background-color: rgb(47, 49, 45);
+    border-radius: 100px;
+    
+}
+.end{
+    text-align: left;
+    margin: 30px;
+    padding: 30px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    color: azure;
+
+}
+.end_left{
+width: 50%;
+
+}
+.end_right{
+    width: 50%;
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 10px;
+    margin: 50px;
+
+}
+.insta_link{
+    align-items: center;
+    text-align: center;
+    padding: 8px;
+
+}
+.insta{
+    height: 70px;
+    
+    
+}
